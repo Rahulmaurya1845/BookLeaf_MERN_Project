@@ -107,3 +107,10 @@ Base URL: `/api`. Auth: `Authorization: Bearer <token>`. Errors: `{ "error": { "
 - Demo users share a seeded password; production needs password reset, invite flow, and account lockout.
 - No automated tests yet; I'd add API tests (supertest) and a small labelled set to measure classification accuracy.
 - AI call runs inside the request (needed on serverless); at scale move it to a queue/worker and email authors on replies.
+
+
+   ## Live demo
+   - App: https://client-psi-henna-74.vercel.app
+   - API: https://server-two-pi-81.vercel.app/api/health
+   - Admin: admin@bookleaf.com / Admin@123
+   - Author: priya.sharma@email.com / Author@123 (all sample authors use Author@123)
